@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+ 
+  
+  <filter>
+    <filter-name>portier</filter-name>
+    <filter-class>utile.portier</filter-class>
+  </filter>
+  <filter-mapping>
+  <filter-name>portier</filter-name>
+  <url-pattern>/site/*</url-pattern>
+  </filter-mapping>
+</web-app>

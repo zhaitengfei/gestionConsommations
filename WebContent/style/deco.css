@@ -1,0 +1,379 @@
+body {
+	color: #403f3f;
+}
+
+p, li, table {
+	font-family: "Arial", "sans-serif";
+	font-size: 14px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.cell10pxh {
+	height:
+}
+
+textarea, input {
+	FONT-SIZE: 9pt;
+}
+
+br {
+	clear: both;
+}
+
+h1 {
+	font-family: "Arial", "sans-serif";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 115%;
+}
+
+h2 {
+	font-family: "Arial", "sans-serif";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 105%;
+}
+
+h3 {
+	font-family: "Arial", "sans-serif";
+	font-size: 95%;
+}
+
+button {
+	color: #000000;
+	font-size: 9pt;
+	margin-top: 0px;
+	margin: 0px;
+	padding: 0;
+	height: 20px;
+	background: url(bg_button.gif) no-repeat 100% 0;
+}
+
+button:hover {
+	color: #eb0617;
+}
+
+/* lien non-visité */
+a:link {
+	color: #00192a;
+}
+
+/* lien visité   */
+a:visited {
+	color: #00426c;
+}
+
+/* content aspect */
+#content p {
+	text-align: justify;
+}
+/* It is possible to split space in columns*/
+.column1 {
+	width: 47%;
+	float: left;
+}
+
+.column2 {
+	width: 47%;
+	float: right;
+}
+
+#content h1 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	background: url(i/title.gif) repeat-x;
+	height: 35px;
+	font-weight: normal;
+	font-size: 150%;
+}
+
+#content h2 {
+	font-weight: normal;
+	font-size: 120%;
+	color: #003151;
+}
+
+/* summary aspect */
+.summary {
+	margin-right: 10px;
+	font: 120% "Georgia", sans-serif;
+	width: 85%;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+/*  --  note aspect  --*/
+#note {
+	background: #d1dae0;
+	padding: 10px;
+	border: 1px solid #a9a9a9;
+}
+
+#note  p {
+	margin-left: 10px;
+}
+
+#note h3 {
+	text-transform: uppercase;
+	font: 75% "Arial";
+	color: #003151;
+	font-weight: bold;
+	background: url(i/narrow.png) no-repeat;
+	padding: 0;
+	margin: 0;
+	padding-left: 17px;
+}
+
+/* Vertical blocs*/
+#vbloc {
+	background: white;
+	padding: 0px;
+	border: 1px solid #a9a9a9;
+	width: 168px;
+	margin-bottom: 20px;
+	background: #fbfbfb;
+}
+
+#vbloc h2 {
+	text-transform: uppercase;
+	font: 75% "Arial";
+	color: white;
+	font-weight: bold;
+	background: url(i/vblocTitle.png) no-repeat;
+	padding: 0;
+	margin: 0;
+	padding-left: 10px;
+	padding-top: 2px;
+	height: 19px;
+}
+
+#vbloc h3 {
+	text-transform: uppercase;
+	font: 75% "Arial";
+	color: #464545;
+	font-weight: bold;
+	background: url(i/vblocH3.png) repeat-x;
+	padding-top: 2px;
+	padding-left: 10px;
+	height: 21px;
+}
+
+#vbloc ul {
+	margin: 0;
+	padding: 0;
+}
+
+#vbloc ul li {
+	color: #003353;
+	padding-left: 10px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+#vbloc ul li a {
+	text-decoration: none;
+}
+
+#vbloc p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* submenu   A submenu is a vertical bloc that contains only a list of links*/
+#submenu {
+	background: white;
+	padding: 0px;
+	border: 1px solid #a9a9a9;
+	width: 168px;
+	margin-bottom: 20px;
+}
+
+#submenu h2 {
+	text-transform: uppercase;
+	font: 60% "Arial";
+	color: white;
+	font-weight: bold;
+	background: url(i/vblocTitle.png) no-repeat;
+	padding: 0;
+	margin: 0;
+	padding-left: 10px;
+	padding-top: 2px;
+	height: 19px;
+}
+
+#submenu ul {
+	list-style: none outside;
+}
+
+#submenu ul li {
+	background: url(i/vblocMenuItem.png) repeat-x;
+	padding: 0;
+	margin: 0;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	height: 18px;
+}
+
+#submenu ul li a {
+	text-decoration: none;
+}
+
+/*  --  footer  --*/
+#footer p, #footer li, #footer a {
+	color: #e2e1e1;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#footer li {
+	width: 65px;
+	float: left;
+	list-style-type: none;
+}
+
+/*  --  table  --*/
+table {
+	margin: 0;
+	border-collapse: collapse;
+	padding: 0px;
+	border: 1px solid #a9a9a9;
+	background: #fbfbfb;
+}
+
+td {
+	padding: 2px;
+	font-size: 13px;
+	margin: 0;
+	border: 0px solid #a9a9a9;
+}
+
+th {
+	padding: 2px;
+	font-size: 13px;
+	margin: 0;
+	border: 2px solid #a9a9a9;
+}
+
+/*  --  table  data title --*/
+#title {
+	background: #002f4d;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+.submit {
+	border: none;
+	color: #ffffff;
+	background: #3399cc;
+}
+
+.Casefond {
+	background-color: #e1e6e7;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.Casebleu0 {
+	background-color: #b1eceb;
+	font-size: 11px;
+}
+
+.Casebleu {
+	background-color: #cccccc;
+	font-size: 12px;
+}
+
+.Casebleu14 {
+	background-color: #c0ebe7;
+	font-size: 14px;
+}
+
+.Casebleu1 {
+	background-color: #c0ebe7;
+	font-size: 11px;
+}
+
+.Casebleu2 {
+	background-color: #18c0f0;
+	font-size: 12px;
+}
+
+.Casebleu3 {
+	background-color: #188df0;
+	font-size: 11px;
+}
+
+.Casebleu4 {
+	background-color: #82acbe;
+	font-size: 11px;
+}
+
+.CaseGrise {
+	background-color: #f0ede8;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.CaseRouge {
+	background-color: #ef233b;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.CaseRose {
+	background-color: #f67483;
+	font-size: 11px;
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+.CaseViolette {
+	background-color: #e78de2;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.CaseViolette2 {
+	background-color: #cf5dcb;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.CaseRougeVif {
+	background-color: #F781BE;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.CaseVertVif {
+	background-color: #82f08a;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.CaseOrange {
+	background-color: #f18220;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.CaseJaune {
+	background-color: #fbfb0d;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.VertPale {
+	background-color: #90d636;
+	font-size: 11px;
+}
+
+.RougeFonce {
+	background-color: #b30b2f;
+	font-weight: bold;
+	font-size: 11px;
+}
